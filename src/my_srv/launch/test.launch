@@ -1,0 +1,4 @@
+<launch>
+	<node name="a" pkg="my_srv" type="a.py" output="screen" launch-prefix="konsole -e"/>
+	<node name="b" pkg="my_srv" type="b.py" output="screen" launch-prefix="konsole -e"/>
+</launch>
