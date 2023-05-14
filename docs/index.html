@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to turtlebot_controller’s documentation! &mdash; turtlebot_controller 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=359c27e9"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            turtlebot_controller
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to turtlebot_controller’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a><ul>
+<li><a class="reference internal" href="#turtlebot-controller-documentation">Turtlebot_controller documentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-scripts.turtlebot_controller">Turtlebot_controller Module</a><ul>
+<li><a class="reference internal" href="#scripts.turtlebot_controller.controller"><code class="docutils literal notranslate"><span class="pre">controller()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-scripts.exercise2">Exercise2 Module</a><ul>
+<li><a class="reference internal" href="#scripts.exercise2.callback_position"><code class="docutils literal notranslate"><span class="pre">callback_position()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">turtlebot_controller</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to turtlebot_controller’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-turtlebot-controller-s-documentation">
+<h1>Welcome to turtlebot_controller’s documentation!<a class="headerlink" href="#welcome-to-turtlebot-controller-s-documentation" title="Permalink to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+<section id="turtlebot-controller-documentation">
+<h2>Turtlebot_controller documentation<a class="headerlink" href="#turtlebot-controller-documentation" title="Permalink to this heading"></a></h2>
+<p>This is the documentation of the turtlebot_controller package.</p>
+</section>
+</section>
+<section id="module-scripts.turtlebot_controller">
+<span id="turtlebot-controller-module"></span><h1>Turtlebot_controller Module<a class="headerlink" href="#module-scripts.turtlebot_controller" title="Permalink to this heading"></a></h1>
+<span class="target" id="module-turtlebot_controller"></span><p>This node implements a controller for the turtlesim</p>
+<dl class="simple">
+<dt>Subscribes to:</dt><dd><p>/turtle1/pose</p>
+</dd>
+<dt>Publishes to:</dt><dd><p>/turtle1/cmd_vel</p>
+</dd>
+</dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="scripts.turtlebot_controller.controller">
+<span class="sig-prename descclassname"><span class="pre">scripts.turtlebot_controller.</span></span><span class="sig-name descname"><span class="pre">controller</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/scripts/turtlebot_controller.html#controller"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#scripts.turtlebot_controller.controller" title="Permalink to this definition"></a></dt>
+<dd><p>This function initializes the ROS node and waits for the robot’s <strong>pose</strong>, controlling the robot
+publishing a <strong>cmd_vel</strong>, by relying on the <a class="reference external" href="http://wiki.ros.org/rospy/">rospy</a> module.</p>
+<p>The velocity is passed as a <code class="docutils literal notranslate"><span class="pre">geometry_msgs::Twist</span></code> message; you can find an updated version
+of this module in <a class="reference internal" href="#module-scripts.exercise2" title="scripts.exercise2"><code class="xref py py-mod docutils literal notranslate"><span class="pre">scripts.exercise2</span></code></a>.</p>
+</dd></dl>
+
+</section>
+<section id="module-scripts.exercise2">
+<span id="exercise2-module"></span><h1>Exercise2 Module<a class="headerlink" href="#module-scripts.exercise2" title="Permalink to this heading"></a></h1>
+<span class="target" id="module-exercise2"></span><p>ROS node for controlling the robot</p>
+<dl class="simple">
+<dt>Subscribes to:</dt><dd><p>/turtle1/pose</p>
+</dd>
+<dt>Publishes to:</dt><dd><p>/turtle1/cmd_vel</p>
+</dd>
+<dt>Clients:</dt><dd><p>/kill</p>
+</dd>
+</dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="scripts.exercise2.callback_position">
+<span class="sig-prename descclassname"><span class="pre">scripts.exercise2.</span></span><span class="sig-name descname"><span class="pre">callback_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pose</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/scripts/exercise2.html#callback_position"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#scripts.exercise2.callback_position" title="Permalink to this definition"></a></dt>
+<dd><p>Callback function to set the actual robot’s velocity</p>
+<p>Args:
+pose(Pose): the robot’s position</p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Pablo Moreno.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

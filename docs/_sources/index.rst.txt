@@ -1,0 +1,41 @@
+.. turtlebot_controller documentation master file, created by
+   sphinx-quickstart on Sat May 13 16:24:52 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to turtlebot_controller's documentation!
+================================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+Turtlebot_controller documentation
+**************************************
+
+This is the documentation of the turtlebot_controller package.
+
+Turtlebot_controller Module
+===========================
+
+.. automodule:: scripts.turtlebot_controller
+	:members:
+	
+Exercise2 Module
+================
+
+.. automodule:: scripts.exercise2
+	:members:
+	
+
+
