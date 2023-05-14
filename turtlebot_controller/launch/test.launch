@@ -1,4 +1,0 @@
-<launch>
-	<node name="server" pkg="my_srv2" type="harmonic_server.py" output="screen" />
-	<node name="controller" pkg="turtlebot_controller" type="exercise3.py" />
-</launch>
